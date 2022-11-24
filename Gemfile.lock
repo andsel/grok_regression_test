@@ -1,15 +1,19 @@
+PATH
+  remote: .
+  specs:
+    grok_regression_test (0.1.0)
+      cabin (>= 0.6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     cabin (0.9.0)
-    jls-grok (0.11.5)
-      cabin (>= 0.6.0)
 
 PLATFORMS
   universal-java-11
 
 DEPENDENCIES
-  jls-grok (~> 0.11.5)
+  grok_regression_test!
 
 BUNDLED WITH
-   2.3.14
+   2.3.15

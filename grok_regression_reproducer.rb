@@ -29,4 +29,4 @@ end
 stop_time = Time.now
 
 execution_time = stop_time - start_time
-puts ">>> Grok terminated, executes in #{execution_time} ms"
+puts ">>> Grok terminated, executes in #{execution_time} sec"

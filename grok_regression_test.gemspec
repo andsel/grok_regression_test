@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
   #s.metadata = { 'logstash_plugin' => 'true', 'logstash_group' => 'input'}
 
   # Gem dependencies
-  s.add_runtime_dependency 'jls-grok', '~> 0.11.5'
+  s.add_dependency "cabin", ">=0.6.0"
 end
