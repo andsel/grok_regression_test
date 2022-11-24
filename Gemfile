@@ -1,5 +1,3 @@
 source 'https://rubygems.org'
-#gem 'nokogiri'
-#gem 'rack', '~> 2.2.4'
-#gem 'rspec'
-gem 'jls-grok', '~> 0.11.5'
+
+gemspec
